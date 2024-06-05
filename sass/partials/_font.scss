@@ -1,0 +1,14 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+$TextS: 0.8rem;
+$TextM: 1.5rem;
+$TextL: 2rem;
+$textMax: 3rem;
+
+@mixin text-bg {
+    font-size: $textMax;
+    font-weight: 800;
+}

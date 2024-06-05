@@ -1,0 +1,9 @@
+
+@mixin customButton ($colorBg) {
+    border: solid 2px black;
+    border-radius: 50px;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: $textColor;
+    background-color: $colorBg;
+}

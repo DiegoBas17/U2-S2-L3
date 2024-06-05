@@ -1,0 +1,13 @@
+
+@mixin flexBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin floating {
+    border: solid 2px black;
+    background-color: $colorBt3;
+    border-radius: 50%;
+    box-shadow: 5px 5px 14px -2px #000000;
+}
