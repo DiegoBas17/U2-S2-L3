@@ -19,7 +19,7 @@ header {
     .flex {
       @include flexBox;
       img {
-        height: $size-6;
+        height: 3rem;
       }
       .linkNav {
         font-size: $TextS;
